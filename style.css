@@ -1,13 +1,15 @@
 body {
     font-family: Roboto;
-    background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+    margin: 0;
     
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
     
 }
 
@@ -19,7 +21,6 @@ body {
 
 .lower {
     display: flex;
-    /* border: 10px solid firebrick; */
     padding: 48px;
     gap: 24px;
 }
@@ -56,10 +57,9 @@ body {
     color: #E5E7EB;
 }
 .button {
-    /* display: flex; */
     background-color: #3882F6;
     width:75px;
-    /* flex-basis:1; */
+   
 }
 .image {
     display: flex;
@@ -68,4 +68,64 @@ body {
     background-color: grey;
     justify-content: center;
     align-items: center;
+}
+
+.random-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+.cards {
+    display: flex;
+    border: 5px #3882F6;
+    padding: 8px;
+    gap:16px;
+    padding-left:48px ;
+    padding-right: 48px;
+}
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 5px #3882F6;
+    padding: 8px;
+}
+.square {
+    display: flex;
+    padding: 56px;
+    border: 4px #3882F6 solid;
+    font-size: 36px;
+}
+.quote-block {
+    display: flex;
+    align-content: center;
+    background-color: rgb(151, 150, 150);
+    flex-direction: column;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    /* margin-bottom: 0; */
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    font-style:bold;
+    font-size: 24px;
 }
