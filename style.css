@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-top: 24px;
     
 }
 
@@ -49,18 +50,28 @@ body {
     font-size: 48px;
     color:#F9FAF8;
     font-weight: 900;
+    gap:8px;
+    
 }
 .hero-secondary {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c1c2c5;
+    
+    
+    
 }
 .button {
     background-color: #3882F6;
+    border-radius: 6px;
     width:75px;
-   
+    border-color:#3882F6;
+    box-shadow: none;
+    color:white;
+    padding:2px;    
 }
+
 .image {
     display: flex;
     font-size: 18px;
@@ -80,11 +91,11 @@ body {
 }
 .cards {
     display: flex;
-    border: 5px #3882F6;
     padding: 8px;
     gap:16px;
     padding-left:48px ;
     padding-right: 48px;
+    
 }
 h2 {
     font-size: 36px;
@@ -95,13 +106,13 @@ h2 {
 .card{
     display: flex;
     flex-direction: column;
-    border: 5px #3882F6;
     padding: 8px;
 }
 .square {
     display: flex;
     padding: 56px;
     border: 4px #3882F6 solid;
+    border-radius: 10px;
     font-size: 36px;
 }
 .quote-block {
@@ -128,4 +139,28 @@ h2 {
     justify-content: flex-end;
     font-style:bold;
     font-size: 24px;
+}
+
+.action-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:48px;
+}
+
+.call {
+    display: flex;
+    background-color:#3882F6 ;
+    align-items: center;
+    justify-content: center;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.words {
+
+   
+}
+h3 {
+
 }
