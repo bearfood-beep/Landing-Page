@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex:1;
     
 }
 
@@ -91,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: white;
     padding: 48px;
     padding-left: 68px;
     padding-right: 68px;
@@ -128,7 +129,7 @@ h2 {
 .quote-block {
     display: flex;
     align-content: center;
-    background-color: rgb(151, 150, 150);
+    background-color: #E5E7EB;
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
@@ -139,7 +140,7 @@ h2 {
 
 .quote{
     font-size: 36px;
-    font-style: light italic;
+    font-style:light italic;
     color: #1f2937;
     
 }
@@ -155,9 +156,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:48px;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    /* padding:48px; */
+    padding-top: 122px;
+    padding-bottom: 122px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .call {
@@ -167,8 +170,8 @@ h2 {
     justify-content: center;
     padding-top: 28px;
     padding-bottom: 28px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 120px;
+    padding-right: 120px;
     gap:72px;
     border-radius: 6px;
 }
@@ -182,9 +185,10 @@ h2 {
 }
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: flex-end;
     background-color: #1F2937;
     font-size: 14px;
     color: #F9FAF8;
+    padding: 24px;
 }
