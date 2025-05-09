@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     flex:1;
+    background-color: #1F2937;
     
 }
 
@@ -162,6 +163,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
     padding-top: 122px;
     padding-bottom: 122px;
     padding-left: 70px;
